@@ -46,6 +46,23 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | 1:00 - 2:40    | Design **Nerby Friends** app |
 | 2:40 - 3:00    | Summary & Closing Remarks |
 
+# Design Nerby Friends app
+
+Imagine you are a software engineer in famous big tech company. There is an idea to bring new feature to the messaging application named "Nearby Friends". For opt-in users who grants permission to their location, the mobile application will show a list of friends who are geographically nearby. 
+
+## Functional requirements
+* Users should be able to see nearby friends on their mobile apps.
+* Each entry in the nearby friend list has a distance and a timestamp indicating when the distance was last updated.
+* Nearby friend lists should be updated every few seconds.
+
+## Back-of-the-envelope estimation
+
+...
+
+## High-level Design
+
+...
+
 --- 
 # Meet your hosts
   
