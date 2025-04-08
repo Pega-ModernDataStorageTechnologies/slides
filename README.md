@@ -33,7 +33,7 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 * Storage historical overview and its evolution
 * Modern storages
 * Key characteristics of different storages
-* Design Nerby Friends app
+* Design **Nerby Friends** app
   * Understand the problem
   * Establish design scope
   * Define functional and non-finctional requirements
