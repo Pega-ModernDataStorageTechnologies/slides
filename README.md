@@ -36,8 +36,21 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 * Design **Nerby Friends** app
 * Wrap-up
 
---- 
+## Schedule
 
-<div align="center">
+| Time (Approx.) | Activity |
+| -------------- | --------------------------------------- |
+| 0:00 - 0:20    | Short intro & ice breaker |
+| 0:20 - 0:40    | Storage historical overview and its evolution |
+| 0:40 - 1:00    | Modern storages |
+| 1:00 - 2:40    | Design **Nerby Friends** app |
+| 2:40 - 3:00    | Summary & Closing Remarks |
+
+--- 
+# Meet your hosts
   
-</div>
+**Michal Łukowicz**
+Fellow DevOps Engineer
+
+**Jakub Słyś**
+Senior Principal Software Engineer
