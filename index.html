@@ -44,136 +44,67 @@
           </section>
         </section>
         <section>
-          <section>
-            <h3>Short introduction to storage</h3>
-            <img src="img/devops.png">
-          </section>
-          <section>
-            <img src="img/devops-plan.png">
-          </section>
-          <section>
-            <img src="img/devops-code.png">
-          </section>
-          <section>
-            <img src="img/devops-deploy.png">
-          </section>
-          <section>
-            <h3>Git flow</h3>
-            <img src="img/your-flow.png" alt="Your flow" style="height: 500px; margin: 0 auto 0 auto; background: whitesmoke;">
-          </section>
-        <section>
-          <h3>Pipelines - Github actions</h3>
-          <img src="img/workflow1.png" alt="Github actions" style="margin: 0 auto 0 auto; background: whitesmoke;">
-          <aside class="notes">
-            <ul>
-            <li>
-              GitHub Actions is a CI/CD tool that allows you to automate your workflow.
-            </li>
-            <li>
-              You can create custom workflows that run on GitHub events like push, pull request, issue, etc.
-            </li>
-            <li>
-              You can use GitHub Actions to build, test, and deploy your code.
-            </li>
-            <li>
-              GitHub Actions is free for public repositories and offers free minutes for private repositories.
-            </li>
-            <li>
-              GitHub Actions is easy to set up and use, and it integrates well with GitHub.
-            </li>
-            <li>
-              You can use GitHub Actions to automate your CI/CD pipeline and save time and effort.
-            </li>
-              <li>
-                Github actions are defined in .github/workflows directory.
-              </li>
-              <li>
-              Workflow is defined in YAML format. It consists of jobs, steps, and actions.
-              </li>
-            </ul>
-          </aside>
-        </section>
-          <section>
-            <h3>Different kinds of static analysis</h3>
-          </section>
-          <section>
-<table style="font-size: 0.8em; border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Software Composition Analysis</th>
-      <th>Static Code Analysis</th>
-      <th>Static Application Security Testing</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Focus</td>
-      <td>Open source dependencies</td>
-      <td>Code quality & maintainability</td>
-      <td>Security vulnerabilities</td>
-    </tr>
-    <tr>
-      <td>Checks for</td>
-      <td>License compliance, CVEs</td>
-      <td>Bugs, duplication, style issues</td>
-      <td>SQL injection, XSS etc.</td>
-    </tr>
-    <tr>
-      <td>Tools</td>
-      <td>Snyk, WhiteSource</td>
-      <td>SonarQube, ESLint</td>
-      <td>Semgrep, CodeQL, Veracode</td>
-    </tr>
-  </tbody>
-</table>
-          </section>
-          <section>
-            <h3>Test coverage</h3>
-            <img src="img/code-coverage.png" alt="Test coverage" style="height: 500px; margin: 0 auto 0 auto; background: whitesmoke;">
-            <aside class="notes">
-              <ul>
-                <li>
-                  Measures how much of your code is executed by tests
-                </li>
-                <li>
-                  Helps to identify untested code
-                </li>
-                <li>
-                  Question: Is it good to require 100% test coverage?
-                </li>
-              </ul>
-            </aside>
-          </section>
-        <section>
-          <h3>Deployment</h3>
-          <img src="img/vercel.png" alt="Deployment" style=" margin: 0 auto 0 auto; background: whitesmoke;">
-          <aside class="notes">
-            <ul>
-              <li>
-                Deployment is the process of moving code from a development environment to a production environment.
-              </li>
-              <li>
-                Deployment can be done manually or automatically using CI/CD tools.
-              </li>
-              <li>
-                Deployment can be done to on-premises servers, cloud servers, or serverless platforms.
-              </li>
-              <li>
-                Deployment can be done using tools like Jenkins, GitHub Actions, or AWS CodeDeploy.
-              </li>
-              <li>
-                Deployment can be done using blue-green deployment, canary deployment, or rolling deployment.
-              </li>
-              <li>
-                Deployment can be done using containers, serverless functions, or virtual machines.
-              </li>
-            </ul>
-          </aside>
-        </section>
+          <h3>Short introduction to storage</h3>
+          <img src="images/1956_RAMAC_P1.jpg">
         </section>
         <section>
-          <h3>Let's get to it</h3>
+          <h3>Storage is everywhere</h3>
+          <img src="images/storage.jpg">
+        </section>
+        <section>
+          <h3>Key storage factors</h3>
+          <ul>
+            <li>Capacity</li>
+            <li>Throughput</li>
+            <li>IOPS</li>
+            <li>Latency</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Capacity</h3>
+          <img src="images/capacity.png">
+        </section>
+        <section>
+          <h3>Throughput</h3>
+          <img src="images/throughput.png">
+        </section>
+        <section>
+          <h3>IOPS</h3>
+          <img src="images/iops.png">
+        </section>
+        <section>
+          <h3>Latency</h3>
+          <img src="images/latency.png">
+        </section>
+        <section>
+          <h3>Let's have some fun now</h3>
+        </section>
+        <section>
+          <section>
+            <h3>Neraby Friends</h3>
+            <h4><b>Functional requirements</b></h4>
+              Users should be able to see nearby friends on their mobile apps. Each entry in the nearby friend list has a distance and a timestamp indicating when the distance was last updated.
+              Nearby friend lists should be updated every few seconds.
+          </section>
+          <section>
+            <h3>Now imagine that system brought a lot of users and some marketing companies are interested in it.</h3>
+            They requires very low latency
+          </section>
+          <section>
+            They also want high availability.
+          </section>
+          <section>
+            Data must be backed up easily.
+          </section>
+          <section>
+            Your costs are growing too high - you need to optimize it
+          </section>
+        </section>
+        <section>
+          Questions?
+        </section>
+        <section>
+          Thank you for participation!
         </section>
       </div>
     </div>
