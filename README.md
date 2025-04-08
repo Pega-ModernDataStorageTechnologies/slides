@@ -12,13 +12,13 @@ Over the course of this 3-hour interactive session, we will learn:
 * modern storage technooogies and
 * apply them to the designed system.
 
-# Requirements
+# Prerequisites
 
-## Prerequisites
-
-  * A laptop.
-  * Basic command-line skills: Comfort with navigating directories and running simple commands in a terminal.
-  * Git basics: Understanding of how to clone a repository, commit changes, and push to a remote branch.
+  * **A laptop**.
+  * **Basic command-line skills**: Comfort with navigating directories and running simple commands in a terminal.
+  * **Git basics**: Understanding of how to clone a repository, commit changes, and push to a remote branch.
+  * **GitHub Account**: Create a free GitHub account if you don’t already have one.
+  * **draw.io access**: Easy diagramming for teams.
 
 ## Technical Setup
 
