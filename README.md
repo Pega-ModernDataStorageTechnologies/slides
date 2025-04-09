@@ -72,7 +72,7 @@ System design is a structured process for planning and implementing software sol
     </td>
     <td align="right" style="width:120px;">
       <img 
-        src="https://1drv.ms/i/c/c525bab12e40b0f3/EWXns9FKPudDilUydsm1DJUB4vR2ka9plFCb4SG6AYFVQg?e=SbIDTS" 
+        src="https://1drv.ms/i/c/c525bab12e40b0f3/IQRl57PRSj7nQ4pVMnbJtQyVAVfxCahSgrcctLJ15zTt1gU?width=1024)"
         alt="Michal Łukowicz" 
         width="100" 
         style="border-radius: 50%;" 
