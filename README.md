@@ -14,16 +14,15 @@ Over the course of this 3-hour interactive session, we will learn:
 
 # Prerequisites
 
-  * **A laptop**.
-  * **Basic command-line skills**: Comfort with navigating directories and running simple commands in a terminal.
-  * **Git basics**: Understanding of how to clone a repository, commit changes, and push to a remote branch.
-  * **GitHub Account**: Create a free GitHub account if you don’t already have one.
-  * **draw.io access**: Easy diagramming for teams.
-
-## Technical Setup
-
-Before we start, please ensure the following:
-* GitHub Account: Create a free GitHub account if you don’t already have one.
+* **A Laptop**
+* Basic Command-Line Skills
+Comfortably navigate directories and execute simple terminal commands.
+* **Git Fundamentals**
+Familiarity with cloning repositories, committing changes, and pushing to remote branches.
+* **GitHub Account**
+If you don’t already have one, create a free account on GitHub.
+* **Access to draw.io**
+A tool for creating and collaborating on diagrams.
 
 # Agenda
 
@@ -43,25 +42,18 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | 0:00 - 0:20    | Short intro & ice breaker |
 | 0:20 - 0:40    | Storage historical overview and its evolution |
 | 0:40 - 1:00    | Modern storages |
-| 1:00 - 2:40    | Design **Nerby Friends** app |
+| 1:00 - 2:40    | Designing the **Nearby Friends** application |
 | 2:40 - 3:00    | Summary & Closing Remarks |
 
-# Design Nerby Friends app
+# Designing the “Nearby Friends” application
+System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
-Imagine you are a software engineer in famous big tech company. There is an idea to bring new feature to the messaging application named "Nearby Friends". For opt-in users who grants permission to their location, the mobile application will show a list of friends who are geographically nearby. 
+Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a “Nearby Friends” feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
 
 ## Functional requirements
-* Users should be able to see nearby friends on their mobile apps.
-* Each entry in the nearby friend list has a distance and a timestamp indicating when the distance was last updated.
-* Nearby friend lists should be updated every few seconds.
-
-## Back-of-the-envelope estimation
-
-...
-
-## High-level Design
-
-...
+* **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
+* **Distance & Timestamp**: Each friend in the list displays a distance value and a timestamp indicating when that distance was last updated.
+* **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
 
 --- 
 # Meet your hosts
