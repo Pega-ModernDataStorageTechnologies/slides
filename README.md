@@ -41,6 +41,14 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | 1:00 - 2:40    | Designing the **Nearby Friends** application |
 | 2:40 - 3:00    | Summary & Closing Remarks |
 
+# Storage historical overview and its evolution
+
+Short overview of how that all started - from hard drive, through RAID, SSD's, NVME's ...
+
+# Modern storages
+
+Storage is all that allows you to store state - it is all that we build on foundations mentioned above: object storage, block storage, file storage, databases(SQL, noSQL, distributed), data warehouse, queue systems.
+
 # Designing the Nearby Friends application
 System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
