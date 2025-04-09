@@ -25,18 +25,18 @@ Over the course of this 3-hour interactive session, we will learn:
 ## High-level
 
 Below is a high-level breakdown of the 3-hour bootcamp session:
-* Storage historical overview and its evolution
-* Key characteristics of different storages
-* Modern storages
-* Design **Nerby Friends** app
-* Wrap-up
+* Storage: A Historical overview and evolution
+* Key characteristics of different storage technologies
+* Modern storage solutions
+* Designing the **Nerby Friends** application
+* Wrap-Up
 
 ## Schedule
 
 | Time (Approx.) | Activity |
 | -------------- | --------------------------------------- |
 | 0:00 - 0:20    | Short intro & ice breaker |
-| 0:20 - 0:40    | Storage historical overview and its evolution |
+| 0:20 - 0:40    | Historical overview |
 | 0:40 - 1:00    | Modern storages |
 | 1:00 - 2:40    | Designing the **Nearby Friends** application |
 | 2:40 - 3:00    | Summary & Closing Remarks |
@@ -44,7 +44,7 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 # Designing the Nearby Friends application
 System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
-Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
+> Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
 
 ## Functional requirements
 * **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
