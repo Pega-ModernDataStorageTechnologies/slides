@@ -53,9 +53,40 @@ System design is a structured process for planning and implementing software sol
 
 --- 
 # Meet your hosts
-  
-**Michal Łukowicz**
-Fellow DevOps Engineer
 
-**Jakub Słyś**
-Senior Principal Software Engineer
+<div align="center">
+<table style="width:100%; margin-bottom: 1em;">
+  <tr>
+    <td>
+      <strong>Michal Łukowicz</strong><br>
+      <em>Fellow DevOps Engineer</em><br>
+      Bio
+    </td>
+    <td align="right" style="width:120px;">
+      <img 
+        src="URL_HERE" 
+        alt="Michal Łukowicz" 
+        width="100" 
+        style="border-radius: 50%;" 
+      />
+    </td>
+  </tr>
+</table>
+<table style="width:100%; margin-bottom: 1em;">
+  <tr>
+    <td align="left" style="width:120px;">
+      <img 
+        src="https://substack-post-media.s3.amazonaws.com/public/images/4d17c584-3500-4a83-9db9-f826c356ee62_2000x2000.png" 
+        alt="Jakub Słyś" 
+        width="100" 
+        style="border-radius: 50%;" 
+      />
+    </td>
+    <td>
+      <strong>Jakub Słyś</strong><br>
+      <em>Senior Principal Software Engineer</em><br>
+      Bio
+    </td>
+  </tr>
+</table>
+</div>
