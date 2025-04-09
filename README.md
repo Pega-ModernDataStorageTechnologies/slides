@@ -15,14 +15,10 @@ Over the course of this 3-hour interactive session, we will learn:
 # Prerequisites
 
 * **A Laptop**
-* Basic Command-Line Skills
-Comfortably navigate directories and execute simple terminal commands.
-* **Git Fundamentals**
-Familiarity with cloning repositories, committing changes, and pushing to remote branches.
-* **GitHub Account**
-If you don’t already have one, create a free account on GitHub.
-* **Access to draw.io**
-A tool for creating and collaborating on diagrams.
+* **Basic Command-Line Skills**: Comfortably navigate directories and execute simple terminal commands.
+* **Git Fundamentals**: Familiarity with cloning repositories, committing changes, and pushing to remote branches.
+* **GitHub Account**: If you don’t already have one, create a free account on GitHub.
+* **Access to draw.io**: A tool for creating and collaborating on diagrams.
 
 # Agenda
 
@@ -45,10 +41,10 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | 1:00 - 2:40    | Designing the **Nearby Friends** application |
 | 2:40 - 3:00    | Summary & Closing Remarks |
 
-# Designing the “Nearby Friends” application
+# Designing the Nearby Friends application
 System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
-Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a “Nearby Friends” feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
+Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
 
 ## Functional requirements
 * **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
