@@ -33,12 +33,13 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 ## Schedule
 
 | Time (Approx.) | Activity |
-| -------------- | --------------------------------------- |
-| 0:00 - 0:20    | Short intro & ice breaker |
-| 0:20 - 0:40    | Historical overview |
-| 0:40 - 1:00    | Modern storages |
-| 1:00 - 2:40    | Designing the **Nearby Friends** application |
-| 2:40 - 3:00    | Summary & Closing Remarks |
+|-|-|
+| 16:00 (20 min) | Short intro & ice breaker |
+| 16:20 (40 min) | Historical overview & Modern storages |
+| 17:00 (30 min) | Designing the app, part 1 |
+| 17:30 (15 min) | Pizza time 🍕 |
+| 17:45 (60 min) | Designing the app, part 2 |
+| 18:45 (15 min) | Summary & Closing Remarks |
 
 # Storage historical overview and its evolution
 
