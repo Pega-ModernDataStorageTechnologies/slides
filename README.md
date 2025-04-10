@@ -43,16 +43,18 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 # Storage historical overview and its evolution
 
-Short overview of how that all started - from hard drive, through RAID, SSD's, NVME's ...
+Have you ever wondered how our data storage capabilities transformed from bulky magnetic **tapes** and basic hard disk drives (**HDDs**) to the lightning-fast **NVMe** solutions we rely on today? Since the dawn of computing, storage has been both a fundamental challenge and a catalyst for technological advancement. Early systems were constrained by **expensive hardware** and **limited capacity** - so engineers turned to Redundant Array of Independent Disks (**RAID**) to increase **reliability**, **availability**, and **performance**. By uniting multiple hard drives into a single logical unit, RAID laid the groundwork for more robust and fault-tolerant storage architectures.
+
+As demand for speed and efficiency soared, Solid-State Drives (**SSDs**) heralded a major breakthrough with their **superior data access**, **lower latency**, and **improved durability**. The unceasing pursuit of higher performance then inspired the creation of Non-Volatile Memory Express (**NVMe**), a protocol that capitalizes on **high-speed PCIe connections**. This development propelled storage technology into a new era of capacity, throughput, and reliability — one that continues to evolve today...
 
 # Modern storages
 
 Storage is all that allows you to store state - it is all that we build on foundations mentioned above: object storage, block storage, file storage, databases(SQL, noSQL, distributed), data warehouse, queue systems.
 
 # Designing the Nearby Friends application
-System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
+> System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
-> Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
+Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
 
 ## Functional requirements
 * **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
