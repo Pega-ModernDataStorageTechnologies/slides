@@ -9,7 +9,7 @@
 Database systems have transformed dramatically from their inception in the 1960s to the cloud-based platforms of today. This evolution has been driven by growing demands for **scalability**, **performance**, **flexibility**, and the ability to handle ever-**increasing** **volumes** of data. Over the decades, the dominant database models have shifted from early navigational (hierarchical and network) databases, to the relational model, and more recently to NoSQL and cloud-based solutions. Each stage in this journey was influenced by the limitations of the previous generation and the emerging needs of the time.
 
 Over the course of this 3-hour interactive session, we will learn:
-* modern storage technooogies and
+* modern storage technologies and
 * apply them to the designed system.
 
 # Prerequisites
