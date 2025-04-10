@@ -29,7 +29,6 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 * Key characteristics of different storage technologies
 * Modern storage solutions
 * Designing the **Nerby Friends** application
-* Wrap-Up
 
 ## Schedule
 
@@ -49,19 +48,22 @@ As demand for speed and efficiency soared, [Solid-State Drives (**SSDs**)](https
 
 # Modern storages
 
-When you think about the countless apps, services, and systems in use today, all of them rely on one unifying element: [**storage**](https://en.wikipedia.org/wiki/Data_storage). It’s the bedrock that preserves the “[**state**](https://en.wikipedia.org/wiki/State_(computer_science))” of any application or platform, enabling everything from tiny web services to massive enterprise data centers. Building on the foundations of RAID, SSDs, and NVMe, today’s storage ecosystem has evolved into a diverse toolkit designed to meet every conceivable need. Whether you’re working with **object storage** for unstructured data, [**block storage**](https://en.wikipedia.org/wiki/Block_(data_storage)) for virtual machines, [**file storage**](https://en.wikipedia.org/wiki/File_system) for shared directories, or one of the many flavors of [**databases**](https://en.wikipedia.org/wiki/Database) - **SQL, NoSQL, or distributed** - you’re tapping into decades of innovations in performance and reliability. Even [**data warehouses**](https://en.wikipedia.org/wiki/Data_warehouse) that drive analytics at scale and **queue systems** that orchestrate event-driven architectures owe their existence to these foundational breakthroughs. This talk will explore how the remarkable ways data is stored, managed, and transformed today.
+When you think about the countless apps, services, and systems in use today, all of them rely on one unifying element: [**storage**](https://en.wikipedia.org/wiki/Data_storage). It’s the bedrock that preserves the “[**state**](https://en.wikipedia.org/wiki/State_(computer_science))” of any application or platform, enabling everything from tiny web services to massive enterprise data centers. Building on the foundations of RAID, SSDs, and NVMe, today’s storage ecosystem has evolved into a diverse toolkit designed to meet every conceivable need. Whether you’re working with [**object storage**](https://en.wikipedia.org/wiki/Object_storage) for unstructured data, [**block storage**](https://en.wikipedia.org/wiki/Block_(data_storage)) for virtual machines, [**file storage**](https://en.wikipedia.org/wiki/File_system) for shared directories, or one of the many flavors of [**databases**](https://en.wikipedia.org/wiki/Database) - **[SQL](https://en.wikipedia.org/wiki/SQL), [NoSQL](https://en.wikipedia.org/wiki/NoSQL), or distributed** - you’re tapping into decades of innovations in performance and reliability. Even [**data warehouses**](https://en.wikipedia.org/wiki/Data_warehouse) that drive analytics at scale and [**queue systems**](https://en.wikipedia.org/wiki/Message_queue) that orchestrate event-driven architectures owe their existence to these foundational breakthroughs. This talk will explore how the remarkable ways data is stored, managed, and transformed today.
 
 # Designing the Nearby Friends application
+
 > System design is a structured process for planning and implementing software solutions that meet user needs while accommodating **growth**, **performance**, and **security** considerations. It involves translating **requirements** into a cohesive **architecture**, determining how to break the system into logical **components**, choosing appropriate **data stores** (relational vs. NoSQL), and selecting **communication** protocols (REST, gRPC, etc.). Each decision carries its own trade-offs around **cost**, **scalability**, **complexity**, and **reliability**.
 
 Imagine you are a software engineer at a big tech company. You’ve been presented with an exciting challenge: **implement a Nearby Friends feature** in an existing messaging application. This functionality must aggregate and display real-time location data for users who have opted in and granted permission. The system must be robust enough to handle large volumes of updates, efficient enough to provide near-instant feedback to users, and secure enough to protect sensitive location data.
 
 ## Functional requirements
+
 * **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
 * **Distance & Timestamp**: Each friend in the list displays a distance value and a timestamp indicating when that distance was last updated.
 * **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
 
 --- 
+
 # Meet your hosts
 
 <div align="center">
