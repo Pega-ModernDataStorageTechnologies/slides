@@ -63,7 +63,7 @@ Imagine you are a software engineer at a big tech company. You’ve been present
 * **Distance & Timestamp**: Each friend in the list displays a distance value and a timestamp indicating when that distance was last updated.
 * **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
 
-## Key characteristic
+## Characteristics to choose from
 
 | Characteristic             | Description                                                                                                                                                                     |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
