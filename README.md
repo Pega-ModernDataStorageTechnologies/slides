@@ -32,14 +32,14 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## Schedule
 
-| Time (Approx.) | Activity |
-|-|-|
-| 16:00 (20 min) | Short intro & ice breaker |
+| Time (Approx.) | Activity                              |
+| -------------- | ------------------------------------- |
+| 16:00 (20 min) | Short intro & ice breaker             |
 | 16:20 (40 min) | Historical overview & Modern storages |
-| 17:00 (30 min) | Designing the app, part 1 |
-| 17:30 (15 min) | Pizza time 🍕 |
-| 17:45 (60 min) | Designing the app, part 2 |
-| 18:45 (15 min) | Summary & Closing Remarks |
+| 17:00 (30 min) | Designing the app, part 1             |
+| 17:30 (15 min) | Pizza time 🍕                         |
+| 17:45 (60 min) | Designing the app, part 2             |
+| 18:45 (15 min) | Summary & Closing Remarks             |
 
 # Storage historical overview and its evolution
 
@@ -62,6 +62,33 @@ Imagine you are a software engineer at a big tech company. You’ve been present
 * **User Visibility**: Users should be able to see a list of nearby friends on their mobile apps.
 * **Distance & Timestamp**: Each friend in the list displays a distance value and a timestamp indicating when that distance was last updated.
 * **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
+
+## Key characteristic
+
+| Characteristic             | Description                                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| performance                | The amount of time it takes for the system to process a business request.                                                                                                       |
+| responsiveness             | The amount of time it takes to get a response to the user.                                                                                                                      |
+| availability               | The amount of uptime of a system; usually measured in 9's (e.g., 99.9%).                                                                                                        |
+| fault tolerance            | When fatal errors occur, other parts of the system continue to function.                                                                                                        |
+| scalability                | A function of system capacity and growth over time; as the number of users or requests increase in the system, responsiveness, performance, and error rates remain constant.    |
+| elasticity                 | The system can expand and respond quickly to unexpected or anticipated extreme loads (e.g., going from 20 to 250,000 users instantly).                                          |
+| data integrity             | The data across the system is correct and there is no data loss in the system.                                                                                                  |
+| data consistency           | The data across the system is in sync and consistent across databases and tables.                                                                                               |
+| adaptability               | The ease in which a system can adapt to changes in environment and functionality.                                                                                               |
+| concurrency                | The ability of the system to process simultaneous requests, in most cases in the same order in which they were received; implied when scalability and elasticity are supported. |
+| interoperability           | The ability of the system to interface and interact with other systems to complete a business request.                                                                          |
+| extensibility              | The ease in which a system can be extended with additional features and functionality.                                                                                          |
+| deployability              | The amount of ceremony involved with releasing the software, the frequency in which releases occur, and the overall risk of deployment.                                         |
+| testability                | The ease of and completeness of testing.                                                                                                                                        |
+| abstraction                | The level at which parts of the system are isolated from other parts of the system (both internal and external system interactions).                                            |
+| workflow                   | The ability of the system to manage complex workflows that require multiple parts (services) of the system to complete a business request.                                      |
+| configurability            | The ability of the system to support multiple configurations, as well as support custom on-demand configurations and configuration updates.                                     |
+| recoverability             | The ability of the system to start where it left off in the event of a system crash.                                                                                            |
+| feasibility (implicit)     | Considering timeframes, budgets, and developer skills when making architectural choices; tight timeframes and budgets make this a driving architectural characteristic.         |
+| security (implicit)        | The ability of the system to restrict access to sensitive information or functionality.                                                                                         |
+| maintainability (implicit) | The level of effort required to locate and apply changes to the system.                                                                                                         |
+| observability (implicit)   | The ability of a system or a service to make available and stream metrics such as overall health, uptime, response times, performance, etc.                                     |
 
 --- 
 
