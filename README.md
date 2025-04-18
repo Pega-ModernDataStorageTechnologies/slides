@@ -125,7 +125,7 @@ Imagine you are a software engineer at a big tech company. You’ve been present
     <td>
       <strong>Jakub Słyś</strong><br>
       <em>Senior Principal Software Engineer</em><br>
-      Bio
+      From Telco to AI powering millisecond‑scale platforms: built LTE/LTE Advanced control‑plane software at Nokia, accelerated Sabre’s real‑time flight‑shopping engine, now shaping Pega’s AI‑driven Customer Decision Hub for Fortune 500 personalization.
     </td>
   </tr>
 </table>
