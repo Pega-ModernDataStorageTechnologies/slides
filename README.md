@@ -102,9 +102,9 @@ Imagine you are a software engineer at a big tech company. You’ve been present
       <em>Fellow DevOps Engineer</em><br>
       Bio
     </td>
-    <td align="right" style="width:120px;">
+    <td align="left" style="width:120px;">
       <img 
-        src="https://1drv.ms/i/c/c525bab12e40b0f3/IQRl57PRSj7nQ4pVMnbJtQyVAVfxCahSgrcctLJ15zTt1gU?width=1024"
+        src="https://drive.google.com/uc?export=view&id=1e56uM4XRdFCvmA64YeWi5cVVduVGBKFm"
         alt="Michal Łukowicz" 
         width="100" 
         style="border-radius: 50%;" 
