@@ -63,6 +63,14 @@ Imagine you are a software engineer at a big tech company. You’ve been present
 * **Distance & Timestamp**: Each friend in the list displays a distance value and a timestamp indicating when that distance was last updated.
 * **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
 
+## Further steps
+* Non-functional requirements
+* Back-of-the-envelope estimation
+* High-level system decomposition (components & APIs)
+* Architectural & technology choices
+* Data storage & modeling
+* Asynchronous updates & messaging
+
 ## Characteristics to choose from
 
 | Characteristic             | Description                                                                                                                                                                     |
