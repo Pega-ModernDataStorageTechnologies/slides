@@ -64,14 +64,54 @@ Imagine you are a software engineer at a big tech company. You’ve been present
 * **Frequent Updates**: The nearby friends list should refresh every few seconds to maintain up-to-date location information.
 
 ## Further steps
-* Non-functional requirements
-* Back-of-the-envelope estimation
-* High-level system decomposition (components & APIs)
-* Architectural & technology choices
-* Data storage & modeling
-* Asynchronous updates & messaging
 
-## Characteristics to choose from
+### Non-functional requirements
+
+* How quickly after a friend moves or changes location should that be reflected in the app? 
+* Are we aiming for updates within a second, or is a few seconds delay acceptable?
+* Does it need “five nines” 99.999% uptime since it’s user-facing?
+* What is the impact if it’s temporarily unavailable? 
+* What scale must the system handle?
+
+### Back-of-the-envelope estimation
+
+* Approximately how many users do we expect to use Nearby Friends?
+* What percentage might use this feature concurrently?
+* How frequently will users send location updates?
+* How often will users query the nearby friends list?
+* How much data would be generated per day by all updates? 
+
+### High-level system decomposition (components & APIs)
+
+* What are the main components/services in your design?
+* How will responsibilities be divided?
+* What does the mobile client do vs. the server?
+* Does the client do any filtering or distance calculation on its own?
+* What APIs or endpoints are needed?
+* What would the request/response look like for each? 
+
+### Architectural & technology choices
+
+* What architecture style will you use?
+* What protocols and patterns will services and clients use to communicate?
+* How will the system deliver frequent updates to clients? 
+* Are there existing technologies or SDKs that could help? 
+* Where will these services run and how?
+
+### Data storage & modeling
+
+* What kind of storage technology is appropriate for storing users’ location data?
+* How will we implement geo-spatial queries in the data store?
+* Is caching worthwhile given data changes so rapidly? 
+* If the data grows large?
+
+### Asynchronous updates & messaging
+
+* How will the system ingest the continuous stream of location updates from users? 
+* How to handle out-of-order updates?
+* What are the trade-off of using asynchronous processing?
+
+### Characteristics to choose from
 
 | Characteristic             | Description                                                                                                                                                                     |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
