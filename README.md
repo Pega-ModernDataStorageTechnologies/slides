@@ -148,7 +148,7 @@ Imagine you are a software engineer at a big tech company. You’ve been present
     <td>
       <strong>Michal Łukowicz</strong><br>
       <em>Fellow DevOps Engineer</em><br>
-      Bio
+      Humble SRE engineer in love with Kafka, observability, automation and pretending that i can do Python.
     </td>
     <td align="left" style="width:120px;">
       <img 
