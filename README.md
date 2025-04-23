@@ -143,52 +143,50 @@ Imagine you are a software engineer at a big tech company. You’ve been present
 # Meet your hosts
 
 <div align="center">
-<table style="width:100%; margin-bottom: 1em;">
+<table style="width:100%;" margin-bottom: 1em;">
   <tr>
     <td>
       <strong>Michal Łukowicz</strong><br>
       <em>Fellow DevOps Engineer</em><br>
-      Humble SRE engineer in love with Kafka, observability, automation and pretending that i can do Python.
+      Humble SRE engineer in love with Kafka, observability, automation and pretending that I can do Python.
     </td>
-    <td align="left" style="width:120px;">
+    <td align="right" style="width:120px;">
       <img 
         src="https://drive.google.com/uc?export=view&id=1e56uM4XRdFCvmA64YeWi5cVVduVGBKFm"
         alt="Michal Łukowicz" 
-        width="100" 
+        width="500" 
         style="border-radius: 50%;" 
       />
     </td>
   </tr>
-</table>
-<table style="width:100%; margin-bottom: 1em;">
   <tr>
-    <td align="left" style="width:120px;">
-      <img 
-        src="https://substack-post-media.s3.amazonaws.com/public/images/4d17c584-3500-4a83-9db9-f826c356ee62_2000x2000.png" 
-        alt="Jakub Słyś" 
-        width="100" 
-        style="border-radius: 50%;" 
-      />
-    </td>
     <td>
       <strong>Jakub Słyś</strong><br>
       <em>Senior Principal Software Engineer</em><br>
       From Telco to AI powering millisecond‑scale platforms: built LTE/LTE Advanced control‑plane software at Nokia, accelerated Sabre’s real‑time flight‑shopping engine, now shaping Pega’s AI‑driven Customer Decision Hub for Fortune 500 personalization.
     </td>
-  </tr>
-  <tr>
     <td align="left" style="width:120px;">
       <img 
-        src="/images/Michal_Wozniak.png" 
+        src="https://substack-post-media.s3.amazonaws.com/public/images/4d17c584-3500-4a83-9db9-f826c356ee62_2000x2000.png" 
         alt="Jakub Słyś" 
-        width="100" 
+        width="500"
         style="border-radius: 50%;" 
       />
     </td>
+  </tr>
+  <tr>
     <td>
       <strong>Michał Woźniak</strong><br>
       <em>Principal Software Engineer</em><br>
       Started IT journey with pre AI Voicebots at a startup called Vivic Labs partnered with Asseco. Moved to Pegasystems to learn a bit more about Big Data processing, distributed databases and see a bit of the big corporate culture.   
+    </td>
+        <td align="left" style="width:120px;">
+      <img 
+        src="/images/Michal_Wozniak.png" 
+        alt="Michał Woźniak" 
+        width="500" 
+        style="border-radius: 50%;" 
+      />
     </td>
   </tr>
 </table>
